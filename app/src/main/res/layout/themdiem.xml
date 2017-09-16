@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/vien"
+    android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HỆ SỐ ĐIỂM"
+            android:textSize="15dp"
+            android:layout_margin="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        >
+        <RadioGroup
+            android:id="@+id/luachon2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/he12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hệ số 1"
+                android:textSize="13dp" />
+
+            <RadioButton
+                android:id="@+id/he22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hệ số 2"
+                android:textSize="13dp"
+                android:layout_marginLeft="15dp"/>
+            <RadioButton
+                android:id="@+id/he32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hệ số 3"
+                android:textSize="13dp"
+                android:layout_marginLeft="15dp"/>
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#de405be6"
+        />
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+        <EditText
+            android:inputType="numberDecimal"
+            android:id="@+id/nhapso"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:background="#f1eeee"
+            android:gravity="right"
+            android:textSize="13dp"
+            android:padding="5dp"
+            android:textColor="#285cc2"
+            android:textColorHint="#285cc2"/>
+
+        <ImageView
+            android:id="@+id/ghichu"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ghichu" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/close"
+            android:layout_width="100dp"
+            android:layout_height="29dp"
+            android:src="@drawable/close"/>
+        <ImageView
+            android:id="@+id/update"
+            android:layout_width="100dp"
+            android:layout_height="29dp"
+            android:src="@drawable/update"
+            android:layout_marginLeft="40dp"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

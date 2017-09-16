@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@drawable/vien"
+    android:orientation="vertical">
+
+    <TextView
+        android:textStyle="bold"
+        android:paddingLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:text="THÊM MÔN HỌC"
+        android:textColor="#000"
+        android:textSize="15dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:id="@+id/textView2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:gravity="right"
+            android:padding="7dp"
+            android:text="Tên môn học:"
+            android:textSize="13dp" />
+
+        <EditText
+            android:id="@+id/TenMonHocc"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:background="#f1eeee"
+            android:maxLines="1"
+            android:padding="3dp"
+            android:textSize="13dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:gravity="right"
+            android:padding="7dp"
+            android:text="Ghi chú:"
+            android:textSize="13dp" />
+
+        <EditText
+            android:id="@+id/ghiChuu"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:background="#f1eeee"
+            android:maxLines="1"
+            android:padding="3dp"
+            android:textSize="13dp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.7dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="10dp"
+        android:background="#616161"
+        android:ems="40" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/dongg"
+            android:layout_width="100dp"
+            android:layout_height="29dp"
+            android:src="@drawable/close" />
+
+        <ImageView
+            android:id="@+id/capnhatt"
+            android:layout_width="100dp"
+            android:layout_height="29dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/update" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+

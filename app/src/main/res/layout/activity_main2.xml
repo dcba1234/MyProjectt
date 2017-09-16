@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#f4f4f4"
+    android:layout_height="match_parent"
+    tools:context="thanhnnt.itplus.vn.myprojectt.Main2Activity">
+<TextView
+    android:id="@+id/aaaa"
+    android:textSize="30dp"
+    android:background="#4336f2"
+    android:text="demo expanable_listView"
+    android:layout_width="match_parent"
+    android:layout_height="200dp" />
+
+ <ExpandableListView
+     android:dividerHeight="20dp"
+     android:divider="#f4f4f4"
+     android:childDivider="#f4f4f4"
+     android:layout_margin="20dp"
+     android:id="@+id/exListView"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+
+ </ExpandableListView>
+
+
+
+
+</LinearLayout>
